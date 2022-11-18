@@ -77,6 +77,7 @@
 
 .search-bar {
     position: relative;
+    margin-top: -25px;
     color: white;
     margin-left: 710px;
     border: 1px solid white;
@@ -86,28 +87,27 @@
     background: white;
 }
 
-.search-bar input {
-    width: auto;
-    background: white;
+.search-bar .map {
+    position: absolute;
+    margin-top: 10px;
     margin-left: 5px;
-    color: white;
+}
+
+.search-bar input {
+    position: absolute;
+    margin-left: 25px;
     margin-top: 12px;
-    font-size: medium;
+    border: none;
+    font-size: 15px;
     justify-content: center;
     text-decoration: none;
+}
+
+.search-bar .arrow {
+    margin-left: 355px;
+    margin-top: 4px;
+    background: transparent;
     border: none;
-}
-
-.search-bar img {
-    margin-bottom: -4px;
-    margin-left: 5px;
-    opacity: 0.7;
-}
-
-.search-arrow img {
-    position: absolute;
-    margin-top: -55px;
-    margin-left: 1065px;
 }
 
 #link {
@@ -116,7 +116,7 @@
 
 #text {
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: -7px;
+    margin-top: 10px;
     margin-left: 830px;
     font-size: medium;
     font-weight: 300;
@@ -125,8 +125,7 @@
 
 /* MAIN PART */
 
-
-/* .img-grid {
+.img-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     margin-top: 200px;
@@ -135,7 +134,7 @@
 }
 
 .img-one:nth-child(1) {
-    grid-column: 3/4;
+    grid-column: 3/5;
 }
 
 .img-two:nth-child(2) {
@@ -143,5 +142,144 @@
 }
 
 .img-three:nth-child(3) {
-    grid-column: 8;
-} */
+    grid-column: 7/10;
+}
+
+.img-one a {
+    color: rgb(214, 32, 0);
+    text-decoration: none;
+    margin-top: 1px;
+    text-align: center;
+    margin-right: 110px;
+}
+
+.img-one h1 {
+    margin-left: -100px;
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: -2px;
+    /* justify-content: center; */
+    line-height: 30px;
+    text-transform: none;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.img-one h3 {
+    opacity: 0.9;
+    margin-left: -110px;
+}
+
+.img-one h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -100px;
+    margin-top: -5px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.text-align {
+    margin-left: -30px;
+    text-align: center;
+}
+
+.img-two a {
+    color: rgb(214, 32, 0);
+    text-decoration: none;
+    margin-top: 1px;
+    text-align: center;
+    margin-right: 110px;
+}
+
+.img-two h1 {
+    margin-left: -100px;
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.img-two h3 {
+    opacity: 0.9;
+    margin-left: -110px;
+}
+
+.img-two h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -100px;
+    margin-top: -5px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.text-align {
+    margin-left: -30px;
+    text-align: center;
+}
+
+.img-three a {
+    color: rgb(214, 32, 0);
+    text-decoration: none;
+    margin-top: 1px;
+    text-align: center;
+    margin-right: 110px;
+}
+
+.img-three h1 {
+    margin-left: -250px;
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.img-three h3 {
+    opacity: 0.9;
+    margin-left: -250px;
+}
+
+.img-three h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -250px;
+    margin-top: -5px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.text-align {
+    margin-left: -30px;
+    text-align: center;
+}
+
+.img-container img {
+    float: right;
+    margin-top: -300px;
+    margin-right: 300px;
+}
+
+.img-container {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 350px;
+}
+
+.img-container h1 {
+    font-size: 40px;
+    opacity: 0.9;
+}
+
+.img-container h3 {
+    font-weight: 600;
+}
+
+.img-container a {
+    text-decoration: none;
+    /* margin-top: -10px; */
+}
+
+.img-container h4 {
+    color: white;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 90px;
+    background: rgb(214, 32, 0);
+    padding: 10px;
+}
